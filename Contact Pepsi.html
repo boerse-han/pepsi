@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Pepsi</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="shortcut icon" href="images/logo-large.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/5.8.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/Contact%20Pepsi.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+        <a class="navbar-brand" href="#"><img src="images/logo-large.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">SIGN UP</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">PRODUCTLOCAATOR</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">PEPSI.com</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">USA</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Canada</a>
+                        <a class="dropdown-item" href="#">international</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="main">
+    <section>
+        <div class="pos"></div>
+        <div class="container">
+            <h1>Product Locator</h1>
+            <a href="#">Sign up for news and offers</a>
+        </div>
+    </section>
+    <form>
+        <div class="heading_wrapper">
+            <div class="header">
+                FIND
+                <div class="labels">
+                    <div class="labels_button">
+                        PEPSI
+                    </div>
+                    <div class="labels_wrapper">
+                        <a href="#">PEPSI</a>
+                        <a href="#">MOUNTAIN DEW</a>
+                        <a href="#">MUG</a>
+                        <a href="#">SIERRA MIST</a>
+                    </div>
+                </div>
+                NEAR YOU.
+            </div>
+            <div class="subheader">
+                You can find us in stores nationwide or online.<br>
+                Search here to find us in stores or click the buy online button.
+            </div>
+            <div class="search_wrapper">
+                <div class="zip_wrapper">
+                    <div class="ecomm_button"><span>BUY ONLINE</span></div>
+                    <div class="or">or</div>
+                    <div class="zip_liner">
+                        <input type="text" placeholder="Enter City / Zip Code">
+                    </div>
+                    <div class="submit_btn">
+                        FIND
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="product_container" id="pepsi">
+            <div class="pepsi" v-for="url in message">
+                <img :src="url.pic" alt="" class="baishi">
+                <p class="title"><span>{{url.title}}</span></p>
+                <div class="hover"></div>
+            </div>
+        </div>
+    </form>
+    <div class="category">
+        <p class="m-0">
+            Not looking for anything specific? Browse our
+            <span>FAQs</span>.
+        </p>
+    </div>
+</div>
+<footer>
+    <div class="container">
+        <div class="footer_top">
+            <div class="cell">
+                <h3 class="Email">Email us</h3>
+                <a href="#">Email Now</a>
+            </div>
+            <div class="cell">
+                <h3 class="Chat">Chat with us</h3>
+                <a href="#">Chat is Unavailable</a>
+            </div>
+            <div class="cell">
+                <h3 class="Talk">Talk with us</h3>
+                <a href="#">1-800-433-2652</a>
+                <p class="mt-2 mb-0"><small>M-F 9:00am -5:00pm ET</small></p>
+            </div>
+            <div class="cell">
+                <h3 class="with">Connect with us</h3>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div class="footer_down">
+            <p class="m-0">© 2019 PepsiCo. All Rights Reserved.</p>
+            <ul class="m-0">
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Site Map</a></li>
+                <li><a href="#">Term & Conditions</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Provide Website Feedback</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+<script src="https://cdn.bootcss.com/popper.js/1.15.0/umd/popper.min.js"></script>
+<script src="https://cdn.bootcss.com/jquery/3.4.0/jquery.slim.min.js"></script>
+<script src="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="js/axios.min.js"></script>
+<script src="js/vue.js"></script>
+<script src="js/json.js"></script>
+<script src="js/Contact%20Pepsi.js"></script>
+</body>
+</html>

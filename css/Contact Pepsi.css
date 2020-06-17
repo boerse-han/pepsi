@@ -1,0 +1,495 @@
+nav{
+    background: #005eb8;
+}
+body{
+    background: #f7f7f7;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #1a1a1a;
+}
+.navbar-brand img{
+    width: 55px;
+    height: 55px;
+}
+.navbar{
+    padding: 5px 0;
+}
+.nav{
+    width: 100%;
+}
+@media (min-width: 1200px){
+    .container {
+        max-width: 1200px;
+    }
+}
+.dropdown-menu{
+    border-radius: 8px;
+    font-size: 14px;
+    min-width: 112px;
+    max-width: 112px;
+}
+.dropdown-item{
+    color: #767676;
+    padding: 10px 16px;
+}
+.nav-link {
+    padding: .5rem 1.3rem;
+    font-size: 15px;
+}
+section{
+    width: 100%;
+    height: 11.875rem;
+    background-image: url(../images/Pepsi_Cola_Carbonated_Blue_RGB.jpg) !important;
+    position: relative;
+    background-position: 0 -68px;
+}
+section .pos{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0, 0.5);
+}
+@media screen and (min-width: 49.9375em){
+    section{
+        margin-bottom: 1.875rem!important;
+    }
+}
+section .container{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section .container h1{
+    color: white;
+    z-index: 1;
+    font-weight: 500;
+}
+section .container a{
+    color: #262626 !important;
+    background: rgba(255,255,255, 0.7);
+    border-color: rgba(255,255,255, 0.7);
+    border: 1px solid #f7f7f7;
+    border-radius: 21px;
+    z-index: 1;
+    padding: 8px 36px;
+}
+.main{
+    background: #f7f7f7;
+}
+.main > form{
+    max-width: 1170px;
+    background: white;
+    margin: auto;
+    font-weight: 600;
+}
+.heading_wrapper {
+    text-align: center;
+    padding: 50px 0 60px 0;
+    background: #fff;
+}
+.header, .headerMobile {
+    display: inline-block;
+    text-align: center;
+    color: #0065C3;
+    font-size: 54px;
+}
+.labels{
+    display: inline-block;
+    vertical-align: top;
+}
+.labels_button{
+    position: relative;
+    color: #f21c00;
+    border-bottom: 4px solid #f21c00;
+    text-transform: uppercase;
+    font-size: 54px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.labels_wrapper{
+    background: #fff;
+    position: absolute;
+    box-shadow: 1px 2px 5px 0 rgba(0, 0, 0, 0.42);
+    color: #f21c00;
+    display: none;
+    margin: 0;
+    padding: 0;
+    z-index: 4;
+}
+.labels_wrapper a{
+    display: -webkit-box;
+    font-size: 16px;
+    padding: 8px 8px 8px 20px;
+    text-align: left;
+    cursor: pointer;
+    color: #d31b03;
+}
+.subheader {
+    margin: 30px auto 40px auto;
+    line-height: 20px;
+    font-size: 16px;
+}
+.search_wrapper {
+    margin: 0 auto 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+}
+.zip_wrapper{
+    border-radius: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline-block;
+    background-color: transparent;
+    vertical-align: top;
+}
+.ecomm_button,.submit_btn{
+    -webkit-box-sizing: border-box;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 2px solid #0065C3;
+    color: #0065C3;
+    border-radius: 30px;
+    width: 180px;
+    height: 32px;
+    line-height: 32px;
+    font-family: 'SofiaProBlack', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+}
+.ecomm_button:hover,
+.submit_btn:hover{
+    background: #0065C3;
+    color: #fff;
+}
+.or {
+    line-height: 32px;
+    margin: 0 20px;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+    text-transform: lowercase;
+}
+.zip_liner {
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    width: 280px;
+    height: 32px;
+    border-bottom: 2px solid #0065C3;
+    border-radius: 0;
+    padding: 0 20px 0 20px;
+    background: url("../images/position.png") no-repeat;
+    background-size: 10px 14px;
+    background-position: 12px 50%;
+}
+.zip_liner input{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background: transparent;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    border: 0;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: inherit;
+    font-size: 16px;
+    outline: 0;
+    width: 100%;
+    height: 100%;
+    color: #4b4b4b;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    vertical-align: top;
+    z-index: 1;
+    padding: 0 15px;
+}
+.submit_btn {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 15px;
+    width: 85px;
+}
+.product_container{
+    border-left: 1px solid #d7d7d7;
+    border-top: 1px solid #d7d7d7;
+    display: flex;
+    flex-wrap: wrap;
+}
+.pepsi{
+    position: relative;
+    width: 25%;
+    padding-top: 25px;
+    text-align: center;
+    color: #BFBFBF;
+    border-bottom: 1px solid #d7d7d7;
+    border-right: 1px solid #d7d7d7;
+    cursor: pointer;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+    overflow: hidden;
+}
+.pepsi img{
+    width: 70%;
+    height: 220px;
+    margin-bottom: 16px;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+    z-index: -1;
+}
+.hover{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    background: url("../images/dui.png") no-repeat rgba(0, 101, 195, 0.65);
+    background-size: 50% auto;
+    background-position: 50% 50%;
+    display: none;
+}
+.pepsi p{
+    position: relative;
+    height: 25px;
+    margin-bottom: 26px;
+}
+.pepsi p span{
+    position: absolute;
+    display: block;
+    width: 100%;
+    z-index: 998;
+}
+.pepsi:hover{
+    color: white;
+}
+.pepsi:hover .baishi{
+    transform: scale(1.5) translatey(100px);
+}
+.category{
+    background: #E9E9E9;
+    border-top: 1px solid #BBBBBB;
+    color: #1A1A1A;
+    text-align: center;
+    padding: .75rem 0 .9375rem;
+    margin-top: 20px;
+}
+.category p span{
+    display: inline-block;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1;
+    text-decoration: none;
+    color: #005eb8;
+}
+footer{
+    background: #005eb8;
+    color: #ffffff;
+    padding-top: 3.125rem;
+    padding-bottom: 1.875rem;
+}
+.footer_top{
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #ffffff;
+    margin-left: -15px;
+    margin-right: -15px;
+    padding-bottom: 1.875rem;
+    margin-bottom: 1.5625rem;
+}
+.cell{
+    width: 25%;
+    text-align: center;
+}
+.cell h3{
+    padding-left: 30px;
+    text-align: center;
+}
+.Email{
+    background: url("../images/Email.png") no-repeat;
+    background-size: 22px 16px;
+    background-position: 28% 50%;
+}
+.Chat{
+    background: url("../images/Chat.png") no-repeat;
+    background-size: 22px 22px;
+    background-position: 20% 50%;
+}
+.Talk{
+    background: url("../images/dianhua.png") no-repeat;
+    background-size: 22px 22px;
+    background-position: 22% 50%;
+}
+.with{
+    background: url("../images/with.png") no-repeat;
+    background-size: 22px 22px;
+    background-position: 12% 50%;
+}
+.cell a,.call a{
+    display: inline-block;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    padding: 10px 33px;
+    font-size: 14px;
+    border-radius: 30px;
+    font-weight: 600;
+}
+.cell span{
+    display: inline-block;
+    width: 44px;
+    height: 44px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.cell a:hover{
+    background: #fff;
+    color: #005eb8;
+}
+.cell span:hover{
+    opacity: .7;
+}
+.cell span:first-of-type{
+    background: url("../images/xiaoniao.png") no-repeat;
+    background-size: 20px 20px;
+    background-position: 50% 50%;
+}
+.cell span:nth-of-type(2){
+    background: url("../images/F.png") no-repeat;
+    background-size: 16px 20px;
+    background-position: 50% 50%;
+}
+.cell span:nth-of-type(3){
+    background: url("../images/shipin.png") no-repeat;
+    background-size: 18px 20px;
+    background-position: 50% 50%;
+}
+.cell span:last-of-type{
+    background: url("../images/xiangji.png") no-repeat;
+    background-size: 20px 20px;
+    background-position: 50% 50%;
+}
+small{
+    font-size: .75rem;
+}
+.footer_down{
+    display: flex;
+    justify-content: space-between;
+}
+.footer_down p{
+    font-size: .75rem;
+}
+.footer_down ul{
+    display: flex;
+}
+.footer_down ul li{
+    margin-left: 19px;
+}
+.footer_down ul li a{
+    text-decoration: underline;
+    font-size: .875rem;
+}
+.footer_down ul li a:hover,.nav-link:hover{
+    color: rgba(255,255,255,0.6);
+}
+section .container a:hover{
+    background: rgba(255,255,255,1);
+}
+@media (max-width: 600px) {
+    .navbar {
+        padding: 4px 15px;
+    }
+    .navbar-brand img {
+        width: 42px;
+        height: 42px;
+    }
+    .nav {
+        display: block;
+    }
+    section .container {
+        flex-wrap: wrap;
+        align-content: center;
+    }
+    section .container h1{
+        font-size: 32px;
+    }
+    .subheader{
+        width: 89%;
+    }
+    .ecomm_button{
+        display: block;
+        width: 100%;
+        margin: 0 auto 30px auto;
+    }
+    .or{
+        display: none;
+    }
+    .zip_liner{
+        width: 210px;
+    }
+    .product_container > div{
+        width: 50%;
+    }
+    .pepsi img{
+        height: 140px;
+    }
+    .cell{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .Email {
+        background-position: 33% 50%;
+    }
+    .Chat{
+        background-position: 27% 50%;
+    }
+    .Talk{
+        background-position: 29% 50%;
+    }
+    .with{
+        background-position: 22% 50%;
+    }
+    .footer_down{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer_down ul{
+        flex-wrap: wrap;
+        padding-top: 30px;
+    }
+    .footer_down ul li{
+        margin-left: 34px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,64 @@
+{
+  "urls": [
+    {
+      "title": "PEPSI",
+      "pic": "images/img1.jpg"
+    },
+    {
+      "title": "PEPSI 1893",
+      "pic": "images/img2.jpeg"
+    },
+    {
+      "title": "PEPSI CAFFEINE FREE",
+      "pic": "images/img3.jpg"
+    },
+    {
+      "title": "DIET PEPSI CAFFEINE FREE",
+      "pic": "images/img4.jpeg"
+    },
+    {
+      "title": "PEPSI COLA VARIETY PACK",
+      "pic": "images/img5.jpg"
+    },
+    {
+      "title": "CRYSTAL PEPSI",
+      "pic": "images/img6.jpeg"
+    },
+    {
+      "title": "DIET PEPSI",
+      "pic": "images/img7.jpeg"
+    },
+    {
+      "title": "PEPSI TRUE",
+      "pic": "images/img8.jpg"
+    },
+    {
+      "title": "WILD CHERRY PEPSI",
+      "pic": "images/img9.jpg"
+    },
+    {
+      "title": "DIET PEPSI WILD CHERRY",
+      "pic": "images/img10.jpeg"
+    },
+    {
+      "title": "PEPSI WITH REAL SUGAR",
+      "pic": "images/img11.jpg"
+    },
+    {
+      "title": "PEPSI VANILLA",
+      "pic": "images/img12.jpeg"
+    },
+    {
+      "title": "PEPSI FLAVORS",
+      "pic": "images/img13.jpeg"
+    },
+    {
+      "title": "PEPSI CHERRY VANILLA",
+      "pic": "images/img14.jpeg"
+    },
+    {
+      "title": "PEPSI ZERO SUGAR",
+      "pic": "images/img15.jpg"
+    }
+  ]
+}

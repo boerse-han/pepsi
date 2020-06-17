@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+a:hover{
+    text-decoration: none;
+}
+a{
+    color: white;
+}
+body{
+     font-family: Sofia Pro Regular,Helvetica Neue,Helvetica,Arial,sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+     -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+     font-weight: 400;
+    color: white;
+}
+.clearfix:before,
+.clearfix:after{
+    display: block;
+    content: "";
+    clear: both;
+}

@@ -1,0 +1,122 @@
+header{
+    width: 100%;
+    background: url("../images/Pepsi_Group_Can_12oz_Trio_RGB_v2.jpg") center;
+}
+.inner-head{
+    width: 100%;
+    padding: 180px 375px 210px 378px;
+    margin: 0 auto;
+    text-align: center;
+    background: rgba(0,0,0,.5);
+}
+.inner-head h1{
+    margin-bottom: 80px;
+    font-weight: 500;
+    font-size: 2.6875rem;
+    color: white;
+}
+.text{
+    position: relative;
+}
+.inner-head input{
+    font-size: 1.5rem;
+    width: 100%;
+    height: 3.9375rem;
+    padding: 1.25rem 8.125rem 1.25rem 1.25rem;
+    background: none;
+    border: 0;
+    border-bottom: 4px white solid;
+    color: #fff;
+    outline: none;
+}
+.gj{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    right: 5px;
+    bottom: 0;
+}
+.content-main{
+    width: 1200px;
+    padding: 0 15px;
+    margin: auto;
+}
+.content{
+    padding-top: 3.125rem;
+    padding-bottom: 3.125rem;
+}
+h2{
+    font-weight: normal;
+    margin-bottom: 1.875rem;
+}
+.grid{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.call{
+    width: 370px;
+    height: 217px;
+    padding: 25px;
+    z-index: -2;
+    position: relative;
+    margin: 0 15px;
+}
+.call1{
+    background: url("../images/pepsi-featured-pepsi-0@2x.jpg")no-repeat;
+    background-size: 100% 100%;
+}
+.call2{
+    background: url("../images/pepsi-bottle.jpg")no-repeat;
+    background-size: 100% 100%;
+}
+.call:before{
+    position: absolute;
+    content: '';
+    width: 370px;
+    height: 217px;
+    left: 0;
+    top: 0;
+    background-image: linear-gradient(-187deg,rgba(0,0,0,0) 2%,rgba(0,0,0,.4) 50%,rgba(0,0,0,.8) 70%);
+    z-index: -1;
+}
+.call h3{
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: white;
+}
+.call a{
+    margin-top: 54px;
+    cursor: pointer;
+    z-index: 998;
+}
+.call a:hover{
+    background: white;
+    color: black;
+}
+@media (max-width: 600px) {
+    .inner-head{
+        padding: 66px 0;
+    }
+    .content-main{
+        width: 90%;
+    }
+    .grid{
+        flex-wrap: wrap;
+    }
+    .call{
+        margin: 0 0 50px 0;
+    }
+    .call:before{
+        width: 100%;
+        height: 100%;
+    }
+    .call h3 {
+        font-size: 1.2rem;
+    }
+}
